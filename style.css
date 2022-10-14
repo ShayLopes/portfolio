@@ -1,0 +1,22 @@
+body{
+    background-image: url(https://www.eusemfronteiras.com.br/wp-content/uploads/2019/03/Design-sem-nome-69.png);
+    background-repeat: no-repeat;
+}
+
+#titulo{
+    color: gainsboro;
+    text-align: center;
+    letter-spacing: 10px;
+    font-size: 100px;
+    font-family: Courier New, monospace;
+}
+#subtitulo{
+    color: white;
+    text-align: center;
+    letter-spacing: 10px;
+    font-size: 30px;
+    font-family: Courier New, monospace;
+    position: relative;
+    top: -110px;
+
+}
