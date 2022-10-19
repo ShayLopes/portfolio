@@ -1,0 +1,65 @@
+*{
+    margin:0;
+    padding:0;
+    border:0;
+}
+
+a:link, a:visited
+{
+    font-family: Courier New, monospace;
+    font-size: 25px;
+    color: gainsboro;
+    text-decoration: none;
+}
+
+a:hover{
+    color: blueviolet;
+}
+
+body{
+    background-image: url(header.png);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+}
+
+.indice{
+    margin-left: 94%;
+    writing-mode: vertical-lr;
+    transform: rotate(180deg);
+    
+}
+
+.indice ul li {
+    display: inline-block;
+    padding-right: 10px;
+    margin-bottom: 70px;
+}
+
+#end p{
+    color: gainsboro;
+    font-family: Courier New, monospace;
+    font-size: 25px;
+    margin-top: -650px;
+    margin-left: 180px;
+    writing-mode: vertical-lr;
+    transform: rotate(180deg);
+    text-align: center;
+}
+
+#end p:hover{
+    color: blueviolet;
+    background-color: white;
+}
+
+#habilidades li{
+    list-style-type: none;
+    color: gainsboro;
+    font-family: 'Courier New', Courier, monospace;
+    margin-left: 25px;
+}
+
+#habilidades ul{
+    margin-top: -200px;
+    position: relative;
+}
